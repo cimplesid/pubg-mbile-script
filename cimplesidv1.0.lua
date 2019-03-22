@@ -1,24 +1,23 @@
 gg.alert (os.date([[
-???Verification Completed Successfully         
-
+🛡️Verification Completed Successfully          
 Tarih: %Y/%m/%d                                        Saat: %H:%M:%S]]))
 
-gg.alert("--------------------------------------------------- �_�_�_ _�_�_��_�_�_ _�_�_�\n  \b\b+----------------------+           ??\b\b\b\b\b\b\b\????�C I M P L E S I D�???? \n\b  \b+----------------------+ \n�_�_�_ _�_�_��_�_�_ _�_�_�\n--------------------------------------------------")
+gg.alert("--------------------------------------------------- ▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n  \b\b╔══════════════════════╗           🏆\b\b\b\b\b\b\b\🇹🇷║S I D T U B BE║🇹🇷 \n\b  \b╚══════════════════════╝ \n▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n--------------------------------------------------")
 
 
 
 function HOME()
   GR1 = gg.choice({
-    "??Wallhaccck(Lobby)",
-    "??colors(Lobby)",
-    "??Antenna (Lobby) ",
-    "??Hometab(Lobby/game)",
-    "??VIP Men�(Lobby/game)",
-    "?more features(game)",
-    "            ??? �IKIS ??? ",
-    "?? user guide", 
+    "👥Wallhaccck(Lobi)",
+    "🎭colora(Lobi)",
+    "📡Antena (Lobi) ",
+    "🏹hometab(Lobi/game)",
+    "🏆VİP Menü(Lobi/game)",
+    "➕more features(game)",
+    "            ➖🚫 ÇIKIŞ 🚫➖ ",
+    "➡️ user guide", 
 
-  }, nil, "???? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ???? \n\n+�?�++�?�+ +�?�++�?�++�?�+")
+  }, nil, "🇹🇷 🇻 🇮 🇵 cimplesid 🇹🇷 \n\n╚»★«╝╚»★«╝ ╚»★«╝╚»★«╝╚»★«╝")
   if GR1 == 1 then WH() end
   if GR1 == 2 then RNK() end 
   if GR1 == 3 then ANTEN() end
@@ -36,7 +35,7 @@ end
 
 
 function CLRLOG()
-gg.alert(" ??Bu �zelligi kullanmak banlanma riskinizi %20 oraninda azaltir?? \n\n ??Kayit Temizlemeyi her game bittiginde Lobbyde aktif etmelisiniz ")
+gg.alert(" ℹ️Using this feature reduces your ban risk by 20%ℹ️ \n\n 📝Register You must activate cleaning in the lobby each time the game is finished ")
   os.remove("/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/cache/GCloud.ini")
   os.remove("/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
   os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.ini")
@@ -67,21 +66,21 @@ gg.alert(" ??Bu �zelligi kullanmak banlanma riskinizi %20 oraninda azaltir?? \
   os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
   os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
   os.remove("/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-  gg.alert("          gamedan Kalan T�m Kalintilar Basari Ile Silindi. Hunter'S Ekibi Olarak Keyifli gamelar dileriz")
+  gg.alert("          All Remains Remained Successfully. NOW SUBSCRBE SIDTUBE")
 end
 
 function EKS()
   GR6 = gg.multiChoice({
-    "?? �imleri Kaldir",
-    "?? �imleri Kaldir(Sanhok)",
-    "?? D�rb�n �6",
-    "?? D�rb�n �8",
-    "?? Siyah G�ky�z�",
-    "?? Kamera Hilesi x5",
-    "?? Kamera Hilesi x10",
-    "Geri ??"
+    "♻️ Remove Lawns",
+    "♻️ Remove Lawns(Sanhok)",
+    "🔭 scope ×6",
+    "🔬 scope ×8",
+    "🌃 Black Sky",
+    "🎥 camera  x5",
+    "🎥 camera  x10",
+    "back 🔙"
 
-  }, nil, "????PUBG Versiyonunuz [11.0]????")
+  }, nil, "🇹🇷PUBG Version [0.11.5]🇹🇷")
   if GR6 == nil then
   else
     if GR6[1] == true then
@@ -118,7 +117,7 @@ function Speedhacknew()
   gg.getResults(100)
   gg.editAll("4.00", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 
 function Camera5()
@@ -129,7 +128,7 @@ function Camera5()
   gg.getResults(300)
   gg.editAll("438", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 function Camera10()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -139,7 +138,7 @@ function Camera10()
   gg.getResults(300)
   gg.editAll("657", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast(" ?")
+  gg.toast(" ✔")
 end
 function GS()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -148,7 +147,7 @@ function GS()
   gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("4", gg.TYPE_DWORD)
-  gg.toast(" ?")
+  gg.toast(" ✔")
   gg.clearResults()
 end
 function Scope6()
@@ -159,7 +158,7 @@ function Scope6()
   gg.getResults(5)
   gg.editAll("9.33333301544", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast(" ?")
+  gg.toast(" ✔")
 end
 function Scope8()
   gg.clearResults()
@@ -169,7 +168,7 @@ function Scope8()
   gg.getResults(5)
   gg.editAll("7.02999973297", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 
 function ngs2()
@@ -179,7 +178,7 @@ function ngs2()
   gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("0", gg.TYPE_FLOAT)
-  gg.toast(" ?'")
+  gg.toast(" ✔'")
   gg.clearResults()
 end
 
@@ -236,12 +235,12 @@ end
 
 function SEKM()
   GR3 = gg.choice({
-    "??Hometab 75%[Lobby]",
-    "??Hometab 50% [game]",
-    "??Hometab 100% [game]",
-    "?? KULLANIM??",
-    "[??GERI]"
-  }, nil, "+----------------------+\n�??H U N T E R S V 3.1??\n+----------------------+")
+    "⚜️home tab 75%[Lobi]",
+    "⚜️home tab 50% [game]",
+    "⚜️home tab 100% [game]",
+    "ℹ️ USEℹ️",
+    "[🔙GERİ]"
+  }, nil, "╔══════════════════════╗\n║⚜️C I M P L E S I D V 1⚜️\n╚══════════════════════╝")
   if GR3 == nil then
   else
     if GR3 == 1 then
@@ -265,7 +264,7 @@ end
 
 
 function INFONOREC()
-gg.alert("(%75 Hometab)Lobbyde,Digerleri (%50 ve %100 Hometab) game i�erisinde Aktif Edilecektir")
+gg.alert("(%75 HOME TAB)In the lobby, Others  Will be active in the game")
 end
 
 function SNAP8451()
@@ -288,7 +287,7 @@ gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQU
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("200", gg.TYPE_FLOAT)
-gg.toast("1.Adim Tamamlandi,Bekleyin")
+gg.toast("1.Step Complete, Wait")
 end
 	
 function SNAP8452()
@@ -347,11 +346,11 @@ gg.setRanges(gg.REGION_BAD)
   gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("9999", gg.TYPE_FLOAT)
-  gg.toast("Snap845 Aktif")
+  gg.toast("Snap845 active")
 end
 
 function NO75()
-gg.alert("?UYARI?\n Bu �zelligi aktif ettikten sonra aimbot kullanamazsiniz. \n \n [game Kapanabilir]")
+gg.alert("❗WARNING❗\nAfter activating this feature, you cannot use aimbot. \n \n [Game Shut Down]")
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -370,7 +369,7 @@ gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif Edildi ?")
+gg.toast("Activated ✔")
 end
 
 function MSH()
@@ -378,7 +377,7 @@ function MSH()
   gg.searchNumber("1", 16, false, 536870912, 0, -1)
   gg.editAll("1.04", 16)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Active")
 end
 
 function NO50()
@@ -390,7 +389,7 @@ gg.searchNumber("176293393", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("176293392", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("50% Hometab Aktif ")
+gg.toast("50% Active Tabs")
 gg.clearResults()
 end
 
@@ -408,15 +407,15 @@ gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("%100 Hometab Aktifv")
+gg.toast("%100 Active Tabs")
 gg.clearResults()
 end
 
 function ANTEN()
 GR5 = gg.multiChoice({
-"??Anten  ",
-"??Anten 2 ",
-	  }, nil, "Hunters")
+"📡Anten  ",
+"📡Anten 2 ",
+	  }, nil, "subscribe to sidtube")
   if GR5 == nil then
   else
   if GR5[1] == true then ANTEN1() end
@@ -426,7 +425,7 @@ GR5 = gg.multiChoice({
 end
 
 function ANTEN1()
-gg.toast("Anten Aktif Ediliyor...")
+gg.toast("Activating the Antenna...")
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
@@ -445,7 +444,7 @@ gg.getResultCount()
 gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("16000", gg.TYPE_FLOAT)
-gg.toast("ANTEN?")
+gg.toast("ANTENa✔")
 end
 
 function AntSup()
@@ -455,27 +454,27 @@ function AntSup()
   gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(6) gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Anten?")
+  gg.toast("Antena✔")
 end
 
 function WH()
   GR1 = gg.multiChoice({
-    "??WH (B�t�n S.Dragonlar)",
-    "??WH Hata Gider(game)",
-    "??Hatalari Gider(Lobby)",
-    "??WH SD 400-425",
-    "??WH SD 450",
-    "??WH SD 625+",
-    "??WH SD 626",
-    "??WH SD 636",
-    "??WH SD 653",
-    "??WH SD 660",
-    "??WH SD 670-710",
-    "??WH SD 820-821",
-    "??WH SD 835",
-    "??WH SD 845",
-    "??Geri",
-  }, nil, "+----------------------+\n�??W A L L H A C K     M E N U??\n+----------------------+")
+    "🎭WH (All S.Dragons)",
+    "👀WH error expense(game)",
+    "🔭error(Lobi)",
+    "🎭WH SD 400-425",
+    "🎭WH SD 450",
+    "🎭WH SD 625+",
+    "🎭WH SD 626",
+    "🎭WH SD 636",
+    "🎭WH SD 653",
+    "🎭WH SD 660",
+    "🎭WH SD 670-710",
+    "🎭WH SD 820-821",
+    "🎭WH SD 835",
+    "🎭WH SD 845",
+    "↪️back",
+  }, nil, "╔══════════════════════╗\n║⚜️W A L L H A C K     M E N U⚜️\n╚══════════════════════╝")
   if GR1 == nil then
   else
     if GR1[1] == true then
@@ -541,7 +540,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif  v")
+gg.toast("ACTIVATTED  √")
 gg.clearResults()
 end
 
@@ -552,14 +551,14 @@ gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, fa
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("Bekleyin")
+gg.toast("wait")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("Aktif Edildi")
+gg.toast("activating")
 end
 
 function SCOPE()
@@ -575,7 +574,7 @@ gg.searchNumber("4.8146053e21;1.3912556e-19;1.5414283e-44;120;-1;1;-127", gg.TYP
 gg.searchNumber("120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll("2", gg.TYPE_FLOAT)
-gg.toast("Aktif ?")
+gg.toast("Activatted ✔")
 gg.clearResults()
 end
 
@@ -593,7 +592,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif ?")
+gg.toast("activated ✔")
 gg.clearResults()
 end
 
@@ -610,7 +609,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif")
+gg.toast("Actvd subscribe to sidtube")
 end
 
 function WH636()
@@ -626,7 +625,7 @@ gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif")
+gg.toast("Actvd subscribe to sidtube")
 end
 
 function WH425()
@@ -642,7 +641,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aktif")
+gg.toast("Actvd subscribe to sidtube")
 end
 
 function WH450()
@@ -666,7 +665,7 @@ gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("Az Kaldi")
+gg.toast("Az Kaldı")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -685,7 +684,7 @@ gg.searchNumber("4.7961574e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_
 gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("150", gg.TYPE_FLOAT)
-gg.toast(" Aktif  ?")
+gg.toast(" Actvd subscribe to sidtube  ✔")
 gg.clearResults()
 end
 
@@ -703,7 +702,7 @@ gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast(" Aktif ?")
+gg.toast(" Actvd subscribe to sidtube ✔")
 gg.clearResults()
 end
 
@@ -724,7 +723,7 @@ function carflying()
   gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(999999)
   gg.editAll("700", gg.TYPE_FLOAT)
-  gg.toast(" ?")
+  gg.toast(" Actvd subscribe to sidtube✔")
 end
 
 function WH660()
@@ -769,7 +768,7 @@ gg.searchNumber("4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("Aktif ?")
+gg.toast("Actvd subscribe to sidtube ✔")
 gg.clearResults()
 end
 
@@ -799,7 +798,7 @@ gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast(" Aktif ?")
+gg.toast(" Actvd subscribe to sidtube ✔")
 gg.clearResults()
 end
 
@@ -816,7 +815,7 @@ gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIG
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast("Aktif  ?")
+gg.toast("Actvd subscribe to sidtube  ✔")
 gg.clearResults()
 end
 
@@ -838,7 +837,7 @@ gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TY
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(5)
 gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("Aktif ?")
+gg.toast("Actvd subscribe to sidtube ✔")
 gg.clearResults()
 end
 
@@ -892,29 +891,29 @@ function WH845()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif!")
+  gg.toast("Actvd subscribe to sidtube!")
 end
 
 function RNK()
 GR2 = gg.multiChoice({
-"?BEYAZ RENK(T�m Islemciler) ",
-"?SIYAH RENK(T�m Islemciler) ",
-"??ATES RENGI ",
-"??SARI RENK ",
-"??KIRMIZI RENK ",
-"??KIRMIZI RENK [HDR] ",
-"??MAVI RENK ",
-"??MAVI RENK [HDR] ",
-"??YESIL RENK ",
-"??YESIL RENK[HDR] ",
-"?BEYAZ RENK(SD) ",
-"?SIYAH RENK(SD) ",
-"??G�KKUSAGI RENGI ",
-"??TURUNCU RENK ",
-"??MOR RENK",
-"??Geri",
+"⚪white color all procesr",
+"⚫black(all procesor) ",
+"🔥fir color ",
+"🌕orange ",
+"🔴red ",
+"🛑red [HDR] ",
+"🔵blue sky ",
+"💠blue  [HDR] ",
+"☘️gren clr ",
+"♻️green[HDR] ",
+"⚪white(SD) ",
+"⚫black K(SD) ",
+"🌈rainbow clr ",
+"🔶orange clr ",
+"☪️MOR color",
+"↪️back",
 
-	  }, nil, "????")
+	  }, nil, "🇹subscribe to sidtube")
   if GR2 == nil then
   else
   if GR2[1] == true then RNK1() end
@@ -939,21 +938,21 @@ end
 
   function VIP()
   GR5 = gg.multiChoice({
-    "??Kayitlari Temizle",
-    "??Mermi Takibi",
-    "??AimBot",
-    "??Hasar Arttirma",
-    "??S�permen",
-    "??Duvar Arkasi Vurma",
-    "??Hizli Kosma",
-    "?????Hizli Kosma V2",
-    "??Hizli Ates Etme",
-    "??Ziplama Hilesi",
-    "??Jip Hizini Arttir",
-    "??U�an Jip",
-    "??Duvar Hilesi",
-    "?Geri?"
-  }, nil, "??VIP MEN� ??")
+    "☑️Clear Records",
+    "🔫Bullet Tracking",
+    "🔓AimBot",
+    "⬆️Increasing Damage",
+    "🕺Süpermen",
+    "♨️Behind the Wall",
+    "🏇quick run",
+    "🏃‍run v2",
+    "💥fast fire",
+    "💭tracking",
+    "🚔jeep speed",
+    "🚁flying car",
+    "🌁Wall Cheats",
+    "❌back❌"
+  }, nil, "🏆VİP MENÜ subscribe to sidtube🏆")
   if GR5 == nil then
   else
 
@@ -1012,7 +1011,7 @@ function Superman()
   gg.getResults(30)
   gg.editAll("999.0", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("S�permen?")
+  gg.toast("Süpermen✔")
 end
 
 function BestHS()
@@ -1034,7 +1033,7 @@ function BestHS()
   gg.getResults(10)
   gg.editAll("250", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Aktiv")
 end
 
 function HSM()
@@ -1047,7 +1046,7 @@ function HSM()
   gg.getResults(100)
   gg.editAll("9999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif!")
+  gg.toast("Activ!")
 end
 
 function DU()
@@ -1058,7 +1057,7 @@ function DU()
   gg.getResults(10)
   gg.editAll("1000", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Active")
 end
 function WS()
   gg.clearResults()
@@ -1078,7 +1077,7 @@ function WS()
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("0", gg.TYPE_FLOAT)
-  gg.toast("Aktif")
+  gg.toast("Activd")
 end
 
 function Aimbot()
@@ -1098,7 +1097,7 @@ function Aimbot()
   gg.getResults(200)
   gg.editAll("999999999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aimbot  ?")
+  gg.toast("Aimbot  ✔")
 end
 
 function SR()
@@ -1108,7 +1107,7 @@ function SR()
   gg.getResults(30)
   gg.editAll("9", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Activtd")
 end
 function SK()
   gg.clearResults()
@@ -1118,7 +1117,7 @@ function SK()
   gg.getResults(100)
   gg.editAll("1.7", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Aktivatd")
 end
 
 function JumpU()
@@ -1129,7 +1128,7 @@ function JumpU()
   gg.getResults(30)
   gg.editAll("999.0", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Activtd")
 end
 function JSU()
   gg.clearResults()
@@ -1138,7 +1137,7 @@ function JSU()
   gg.getResults(10)
   gg.editAll("-999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Activtd")
 end
 function WT()
   gg.clearResults()
@@ -1148,7 +1147,7 @@ function WT()
   gg.getResults(20)
   gg.editAll("9999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Aktif")
+  gg.toast("Akticatd")
 end
 
 
@@ -1158,7 +1157,7 @@ function RNK1()
   gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("9999", gg.TYPE_FLOAT)
-  gg.toast("BEYAZ RENK AKTIF EDILDI?")
+  gg.toast("WHITE COLOR IS ACTIVE⚪")
 end
 
 
@@ -1168,7 +1167,7 @@ function RNK2()
   gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("-9999", gg.TYPE_FLOAT)
-  gg.toast("SIYAH RENK AKTIF EDILDI?")
+  gg.toast("SBLACK COLOR IS ACTIVE⚫")
 end
 
 function RNK3()
@@ -1184,7 +1183,7 @@ function RNK3()
   gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(30)
   gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK4()
   gg.clearResults()
@@ -1194,7 +1193,7 @@ function RNK4()
   gg.getResults(100)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK5()
   gg.clearResults()
@@ -1204,7 +1203,7 @@ function RNK5()
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK6()
   gg.clearResults()
@@ -1214,7 +1213,7 @@ function RNK6()
   gg.getResults(30)
   gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK7()
   gg.clearResults()
@@ -1225,7 +1224,7 @@ function RNK7()
   gg.searchNumber("11;12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("2", gg.TYPE_DWORD)
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK8()
   gg.clearResults()
@@ -1241,7 +1240,7 @@ function RNK8()
   gg.searchNumber("0F~99999F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("0", gg.TYPE_FLOAT)
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK9()
 gg.clearResults()
@@ -1251,7 +1250,7 @@ gg.clearResults()
   var = gg.getResults(10)
   gg.editAll("32781", gg.PROT_EXEC)
   gg.clearResults()
-  gg.toast("Yesil Renk Aktif Edildi??")
+  gg.toast("Green Color Activated💯")
 end 
 
 function RNK10()
@@ -1262,7 +1261,7 @@ gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("32781", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("?")
+gg.toast("✔")
 end
 
 function RNK11()
@@ -1272,7 +1271,7 @@ gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("32777", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("?")
+gg.toast("✔")
 end
 
 function RNK12()
@@ -1282,7 +1281,7 @@ function RNK12()
   gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(5000)
   gg.editAll("999", gg.TYPE_FLOAT)
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK13()
   gg.clearResults()
@@ -1291,7 +1290,7 @@ function RNK13()
   gg.getResults(1200)
   gg.editAll("-999", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("?")
+gg.toast("✔")
 end
 function RNK14()
   gg.clearResults()
@@ -1301,7 +1300,7 @@ function RNK14()
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 function RNK15()
   gg.clearResults()
@@ -1311,12 +1310,12 @@ function RNK15()
   gg.getResults(12)
   gg.editAll("16", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("?")
+  gg.toast("✔")
 end
 
 
 function SGOK()
-  gg.toast("Siyah G�ky�z� Aktif Ediliyor...")
+  gg.toast("Black Sky Activating...")
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
@@ -1324,26 +1323,26 @@ function SGOK()
   gg.getResults(100)
   gg.editAll("-9999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Siyah G�ky�z� Aktif Edildi????")
+  gg.toast("Black Sky Activated🌃💯")
 end 
 
 
 
 
 function VGG()
-gg.alert("NASIL KULLANILIR?\n\n ??Men�deki (Lobby) ve (game) Kismi nerede aktif edeceginizi g�sterir,Eger Men�de (Lobby/game) yaziyorsa Men� Hem Lobbyde Hemde gameda Aktif Edilecek �zellikler i�eriyordur. \n \n ??Lobbyde Aktif Edilecek Hileler Listesi \n\n 1-Wallhack\n 2-Renkler\n 3-Anten\n 4-Hometab %75\n 5-Vip Men� i�erisindeki Kayitlari Temizle\n\n ??Not\n\n ~Yukarida Yazili Olmayan T�m Hileler game i�erisinde Aktif Edilecektir")
+gg.alert("HOW TO USE?\n\n ℹ️menu (Lobi) ve (game) indicates where you want to activate the menu (Lobi/game) The menu contains features to be active in both the lobby and the game.. \n \n ➡️List of tricks to be activated in the lobby\n\n 1-Wallhack\n 2-colors\n 3-Anten\n 4-home tab %75\n 5-Vip Menü clear record\n\n 🔊Not\n\n ~ All Non-Cheats Above Will Be Activated in Game")
   end
   
   
   
 function EXT()
-GR5 = print("�2019")
-print("� Dogan Isik&Sadik Erdogan Tarafindan hazirlandi")
-print("� Youtube Kanali : HUNTER'S")
+GR5 = print("•2019")
+print("• instagram: cimplesid")
+print("• Youtube Kanalı : SIDTUBE")
 os.exit()
 end
 
-cs = "� HUNTERS"
+cs = "• sidtube"
 while true do
 if gg.isVisible(true) then
 GRH = 1
