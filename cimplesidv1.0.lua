@@ -2,7 +2,7 @@ gg.alert (os.date([[
 🛡️Verification Completed Successfully          
 Tarih: %Y/%m/%d                                        Saat: %H:%M:%S]]))
 
-gg.alert("--------------------------------------------------- ▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n  \b\b╔══════════════════════╗           🏆\b\b\b\b\b\b\b\..║S I D T U B BE║.. \n\b  \b╚══════════════════════╝ \n▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n--------------------------------------------------")
+gg.alert("--------------------------------------------------- ▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n  \b\b╔══════════════════════╗           🏆\b\b\b\b\b\b\b\..║DanaBot_ferryhan88║.. \n\b  \b╚══════════════════════╝ \n▀▄▀▄▀▄ ▄▀▄▀▄▀▀▄▀▄▀▄ ▄▀▄▀▄▀\n--------------------------------------------------")
 
 
 
@@ -17,7 +17,7 @@ function HOME()
     "            ➖🚫 exit 🚫➖ ",
     "➡️ user guide", 
 
-  }, nil, " 🇻 🇮 🇵 cimplesid  \n\n╚»★«╝╚»★«╝ ╚»★«╝╚»★«╝╚»★«╝")
+  }, nil, " DanaBot_FerryHan88  \n\n╚»★«╝╚»★«╝ ╚»★«╝╚»★«╝╚»★«╝")
   if GR1 == 1 then WH() end
   if GR1 == 2 then RNK() end 
   if GR1 == 3 then ANTEN() end
@@ -66,7 +66,7 @@ gg.alert(" ℹ️Using this feature reduces your ban risk by 20%ℹ️ \n\n 📝
   os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
   os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
   os.remove("/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-  gg.alert("          All Remains Remained Successfully. NOW SUBSCRBE SIDTUBE")
+  gg.alert("          All Remains Remained Successfully. NOW SUBSCRBE FerryHan88")
 end
 
 function EKS()
@@ -80,7 +80,7 @@ function EKS()
     "🎥 camera  x10",
     "back 🔙"
 
-  }, nil, "PUBG Version [0.11.5]")
+  }, nil, "PUBG V[0.13.5]by Ferryhan")
   if GR6 == nil then
   else
     if GR6[1] == true then
@@ -117,7 +117,7 @@ function Speedhacknew()
   gg.getResults(100)
   gg.editAll("4.00", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("✔")
+  gg.toast("FerryHan88✔")
 end
 
 function Camera5()
@@ -128,7 +128,7 @@ function Camera5()
   gg.getResults(300)
   gg.editAll("438", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("✔")
+  gg.toast("Ferryhan88✔")
 end
 function Camera10()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -138,7 +138,7 @@ function Camera10()
   gg.getResults(300)
   gg.editAll("657", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast(" ✔")
+  gg.toast(" Ferryhan88✔")
 end
 function GS()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -147,7 +147,7 @@ function GS()
   gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("4", gg.TYPE_DWORD)
-  gg.toast(" ✔")
+  gg.toast(" Ferryhan88✔")
   gg.clearResults()
 end
 function Scope6()
@@ -158,7 +158,7 @@ function Scope6()
   gg.getResults(5)
   gg.editAll("9.33333301544", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast(" ✔")
+  gg.toast(" Ferryhan88✔")
 end
 function Scope8()
   gg.clearResults()
@@ -168,7 +168,7 @@ function Scope8()
   gg.getResults(5)
   gg.editAll("7.02999973297", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("✔")
+  gg.toast("Ferryhan88✔")
 end
 
 function ngs2()
@@ -178,7 +178,7 @@ function ngs2()
   gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("0", gg.TYPE_FLOAT)
-  gg.toast(" ✔'")
+  gg.toast(" Ferryhan88✔'")
   gg.clearResults()
 end
 
@@ -238,9 +238,9 @@ function SEKM()
     "⚜️home tab 75%[Lobi]",
     "⚜️home tab 50% [game]",
     "⚜️home tab 100% [game]",
-    "ℹ️ USEℹ️",
-    "[🔙GERİ]"
-  }, nil, "╔══════════════════════╗\n║⚜️C I M P L E S I D V 1⚜️\n╚══════════════════════╝")
+    "ℹ️DanaBotℹ️",
+    "[🔙FERRyhan88]"
+  }, nil, "╔══════════════════════╗\n║⚜️FerryHan88_DanaBot⚜️\n╚══════════════════════╝")
   if GR3 == nil then
   else
     if GR3 == 1 then
@@ -415,7 +415,7 @@ function ANTEN()
 GR5 = gg.multiChoice({
 "📡Anten  ",
 "📡Anten 2 ",
-	  }, nil, "subscribe to sidtube")
+	  }, nil, "subscribe to FerryHan88")
   if GR5 == nil then
   else
   if GR5[1] == true then ANTEN1() end
@@ -474,7 +474,7 @@ function WH()
     "🎭WH SD 835",
     "🎭WH SD 845",
     "↪️back",
-  }, nil, "╔══════════════════════╗\n║⚜️W A L L H A C K     M E N U⚜️\n╚══════════════════════╝")
+  }, nil, "╔══════════════════════╗\n║⚜️W A L L H A C K  DANABOT⚜️\n╚══════════════════════╝")
   if GR1 == nil then
   else
     if GR1[1] == true then
@@ -609,7 +609,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Actvd subscribe to sidtube")
+gg.toast("Actvd subscribe to FerryHan88")
 end
 
 function WH636()
@@ -625,7 +625,7 @@ gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Actvd subscribe to sidtube")
+gg.toast("Actvd subscribe to FerryHan88")
 end
 
 function WH425()
@@ -641,7 +641,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Actvd subscribe to sidtube")
+gg.toast("Actvd subscribe to FerryHan88")
 end
 
 function WH450()
@@ -684,7 +684,7 @@ gg.searchNumber("4.7961574e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_
 gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("150", gg.TYPE_FLOAT)
-gg.toast(" Actvd subscribe to sidtube  ✔")
+gg.toast(" Actvd subscribe to FerryHan88  ✔")
 gg.clearResults()
 end
 
@@ -702,7 +702,7 @@ gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast(" Actvd subscribe to sidtube ✔")
+gg.toast(" Actvd subscribe to FerryHan88 ✔")
 gg.clearResults()
 end
 
@@ -723,7 +723,7 @@ function carflying()
   gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(999999)
   gg.editAll("700", gg.TYPE_FLOAT)
-  gg.toast(" Actvd subscribe to sidtube✔")
+  gg.toast(" Actvd subscribe to FerryHan88✔")
 end
 
 function WH660()
@@ -768,7 +768,7 @@ gg.searchNumber("4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("Actvd subscribe to sidtube ✔")
+gg.toast("Actvd subscribe to FerryHan88 ✔")
 gg.clearResults()
 end
 
@@ -798,7 +798,7 @@ gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast(" Actvd subscribe to sidtube ✔")
+gg.toast(" Actvd subscribe to FerryHan88 ✔")
 gg.clearResults()
 end
 
@@ -815,7 +815,7 @@ gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIG
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast("Actvd subscribe to sidtube  ✔")
+gg.toast("Actvd subscribe to FerryHan88  ✔")
 gg.clearResults()
 end
 
@@ -837,7 +837,7 @@ gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TY
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(5)
 gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("Actvd subscribe to sidtube ✔")
+gg.toast("Actvd subscribe to FerryHan88 ✔")
 gg.clearResults()
 end
 
@@ -891,7 +891,7 @@ function WH845()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Actvd subscribe to sidtube!")
+  gg.toast("Actvd subscribe to FerryHan88!")
 end
 
 function RNK()
@@ -913,7 +913,7 @@ GR2 = gg.multiChoice({
 "☪️MOR color",
 "↪️back",
 
-	  }, nil, "🇹subscribe to sidtube")
+	  }, nil, "🇹subscribe to FerryHan88")
   if GR2 == nil then
   else
   if GR2[1] == true then RNK1() end
@@ -952,7 +952,7 @@ end
     "🚁flying car",
     "🌁Wall Cheats",
     "❌back❌"
-  }, nil, "🏆VİP MENÜ subscribe to sidtube🏆")
+  }, nil, "🏆VİP MENÜ subscribe to FerryHan88🏆")
   if GR5 == nil then
   else
 
@@ -1337,12 +1337,12 @@ gg.alert("HOW TO USE?\n\n ℹ️menu (Lobi) ve (game) indicates where you want t
   
 function EXT()
 GR5 = print("•2019")
-print("• instagram: cimplesid")
-print("• Youtube Kanalı : SIDTUBE")
+print("• instagram: FerryHan88")
+print("• Youtube Kanalı : FerryHan88")
 os.exit()
 end
 
-cs = "• sidtube"
+cs = "• FerryHan88"
 while true do
 if gg.isVisible(true) then
 GRH = 1
